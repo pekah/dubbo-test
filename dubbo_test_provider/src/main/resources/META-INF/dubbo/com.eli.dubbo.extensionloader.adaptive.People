@@ -1,2 +1,3 @@
 man=com.eli.dubbo.extensionloader.adaptive.Man
 woman=com.eli.dubbo.extensionloader.adaptive.Woman
+manWrapper=com.eli.dubbo.extensionloader.adaptive.ManWrapper
