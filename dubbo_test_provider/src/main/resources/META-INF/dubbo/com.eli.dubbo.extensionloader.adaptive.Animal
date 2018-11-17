@@ -1,0 +1,2 @@
+dog=com.eli.dubbo.extensionloader.adaptive.Dog
+cat=com.eli.dubbo.extensionloader.adaptive.Cat
