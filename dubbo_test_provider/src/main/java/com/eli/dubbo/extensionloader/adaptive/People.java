@@ -7,7 +7,7 @@ import com.alibaba.dubbo.common.extension.SPI;
 /**
  * Created by elizhou on 2018/11/8.
  */
-@SPI
+@SPI("woman")
 public interface People {
     @Adaptive("people.type")
     public void say(URL url);

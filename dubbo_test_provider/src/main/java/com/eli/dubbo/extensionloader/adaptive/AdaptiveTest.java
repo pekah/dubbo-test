@@ -13,8 +13,10 @@ public class AdaptiveTest {
 
     public static void main(String[] args) {
         Map<String, String> parameters = new HashMap<String, String>();
-        parameters.put("animal.type", "cat");
-        parameters.put("people.type", "man");
+//        parameters.put("animal.type", "cat");
+//        parameters.put("people.type", "man");
+        // 传入一个不存在的key，则使用@SPI配置的默认值对应的扩展点
+        parameters.put("people.type", "");
 
         URL url = new URL("dubbo", "zhangsan", "lisi", "127.0.01", 2888, "default", parameters);
 
